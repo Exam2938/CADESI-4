@@ -1,0 +1,26 @@
+/* style.css */
+body { font-family: Arial, sans-serif; padding: 40px; background: #f9f9f9; }
+h1 { color: #2d6ca2; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+th { background: #e0eaf6; }
+button { padding: 10px 24px; font-size: 1rem; }
+#result { margin-top: 20px; font-weight: bold; }
+
+.img-container {
+  text-align: center;      /* 내부 요소(이미지, 설명) 모두 가운데 정렬 */
+  margin-bottom: 24px;     /* 아래 여백(선택사항) */
+}
+
+.img-container img {
+  display: inline-block;   /* 가운데 정렬 보장 */
+  width: 300px;            /* 원하는 크기로 조절 (예시) */
+  height: auto;
+}
+
+.img-caption {
+  margin-top: 8px;         /* 이미지와 설명 사이 여백 */
+  font-size: 1rem;         /* 설명 글씨 크기 */
+  color: #555;             /* 설명 글씨 색 */
+}
+
